@@ -17,8 +17,14 @@ OSError: invalid argument
 ```
 But I don't know which font gets error, so I just make simple test scripts to check even the font gets error.
 
+# Usage
+```
+python3 test.py
+```
+
 # In my case..
 ```
+Your OS version: Windows-10-10.0.17763-SP0
 Your Python version: 3.9.7 (tags/v3.9.7:1016ef3, Aug 30 2021, 20:19:38) [MSC v.1929 64 bit (AMD64)]
 Your pillow version: 8.3.2
 Press start to test
@@ -55,6 +61,7 @@ Trying malgunsl.ttf...  is nice!
 # Solution?
 `Python 3.8` with `pillow==7.2.0` **PERFECTLY** works.
 ```
+Your OS version: Windows-10-10.0.17763-SP0
 Your Python version: 3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:37:50) [MSC v.1916 64 bit (AMD64)]
 Your pillow version: 7.2.0
 Press start to test
