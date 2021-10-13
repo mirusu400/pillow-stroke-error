@@ -3,6 +3,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageOps
 import PIL
 import os
 import sys
+import platform
 
 
 
@@ -28,9 +29,14 @@ def draw(fname, oname):
     img.save(oname)
 
 def check(dirname):
+    print(f"Your OS version: {platform.platform()}")
     print(f"Your Python version: {sys.version}")
     print(f"Your pillow version: {PIL.__version__}")
     input("Press start to test")
+    try:
+        os.mkdir("./output")
+    except:
+        pass
     filenames = os.listdir(dirname)
     for filename in filenames:
         fontname = os.path.join(dirname, filename)
