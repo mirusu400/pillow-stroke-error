@@ -1,6 +1,9 @@
 # pillow-stroke-error
 A checker for pillow stroke error
 
+# Error resolved!
+The pillow team resolved this error and merged into main branch (https://github.com/python-pillow/Pillow/pull/5761), You'll resolve this issue after `pillow >= 8.4.0` 😍
+
 # What is stroke error?
 When we draw a font with specific font, it gets `invaild argument` Error.
 ```
